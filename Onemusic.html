@@ -1,0 +1,8 @@
+# Test shader system
+python -c "from shader_system import ShaderManager; sm = ShaderManager(); sm.load_shaders()"
+
+# Test world generation
+python world_generator.py
+
+# Test vehicle customization
+python -c "from vehicle_customization import VehicleCustomizer; vc = VehicleCustomizer(); vc.create_paint_job('Test', 'soviet_green')"
